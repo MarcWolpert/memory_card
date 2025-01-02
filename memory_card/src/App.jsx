@@ -1,14 +1,14 @@
 // App.jsx
 import { useState } from 'react';
 import './App.css';
-import { BasicInformation } from './components/basicInformation';
+import { PokemonList } from './components/PokemonList';
 
 function App() {
-	const [basicInformation, setBasicInformation] = useState({});
-	const [educationalInformation, setEducationalInformation] = useState({});
-	const [practicalInformation, setPracticalInformation] = useState({});
-
-	return <></>;
+	return (
+		<>
+			<PokemonList></PokemonList>
+		</>
+	);
 }
 
 export default App;

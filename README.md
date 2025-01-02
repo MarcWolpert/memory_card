@@ -1,2 +1,3 @@
-# CV Application
-- Basic CV application with React, html, css, and javascript.
+# Memory Card
+
+- Basic memory game with React hooks, state, effects, async/await, api calling, html, css, and javascript.
